@@ -9,3 +9,10 @@ footer {
 footer span:nth-child(1) {
   margin-right: auto;
 }
+
+@media (width <= 70em) {
+  footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

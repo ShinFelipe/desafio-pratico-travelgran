@@ -43,3 +43,9 @@ a:hover {
 .surface-color {
   background-color: var(--surface-color);
 }
+
+@media (width <= 70em) {
+  .container {
+    max-width: 360px;
+  }
+}

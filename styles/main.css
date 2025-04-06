@@ -12,3 +12,15 @@ main img {
 
   object-fit: contain;
 }
+
+@media (width <= 80em) {
+  main {
+    padding: 16px;
+    justify-content: center;
+
+    & img {
+      max-width: 328px;
+      max-height: 328px;
+    }
+  }
+}
